@@ -1,0 +1,141 @@
+{
+    "basics": {
+      "name": "Javier Irineo Villa Castillo",
+      "label": "Desarrollador Web",
+      "image": "",
+      "email": "javieririneo369@gmail.com",
+      "github": "https://github.com/Irineo-1",
+      "linkedin": "https://www.linkedin.com/in/irineo-villa-castillo-64359b1a9/",
+      "phone": "",
+      "url": "",
+      "summary": "Desarrollador web con 3 años de experiencia trabajando tanto en Front-end como Back-end. Con una gran experiencia utilizando el stack de vue. Una gran facilidad de aprendizaje y para resolver problemas en poco tiempo.",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "Colima",
+        "countryCode": "",
+        "region": "Colima"
+      }
+    },
+    "work": [{
+      "name": "Ap interfaces",
+      "position": "PROGRAMADOR PHP",
+      "url": "",
+      "startDate": "11/2022",
+      "endDate": "01/2024",
+      "summary": "Subiendo a una base de datos SQL SERVER los flujos de los servidores. Migrando aplicaciones, servicios y tareas programadas a versiones más recientes de las que fueron programadas."
+    },
+    {
+      "name": "Zero 1 Solution center",
+      "position": "PROGRAMADOR WEB JR",
+      "url": "",
+      "startDate": "01/2021",
+      "endDate": "10/2022",
+      "summary": "Desarrollando diferentes componentes graficos utilizando Vue 2. En algunas ocaciones llegue a realizar tareas en el backend como crear un controlador para procesar el video que se grabara desde la pagina y creando una API RES para la consulta y edicion de datos esto utilizando Node.js y Python 3 con Flask"
+    }
+    ],
+    "education": [{
+      "institution": "ICEP",
+      "url": "https://icep.edu.mx/",
+      "area": "Ingeniería en sistemas computacionales",
+      "studyType": "Bachelor",
+      "startDate": "2021",
+      "endDate": "2024"
+    },
+    {
+      "institution": "CBTIs 19",
+      "url": "https://www.facebook.com/CBTis19/",
+      "area": "Técnico programador",
+      "studyType": "Bachelor",
+      "startDate": "2017",
+      "endDate": "2020"
+    }],
+    "certificates": [{
+      "name": "TypeScript: Tu completa guía y manual de mano.",
+      "date": "2023",
+      "issuer": "Udemy",
+      "url": "https://drive.google.com/file/d/1uU7vArjnnw7ZvaOHMhPXQngCWVX8Gr2u/view?usp=sharing"
+    }],
+    "skills": [{
+      "name": "JavaScript"
+    },
+    {
+      "name": "Node.js"
+    },
+    {
+      "name": "Vue - todo el stack"
+    },
+    {
+      "name": "Typescript"
+    },
+    {
+      "name": "PHP"
+    },
+    {
+      "name": "Python"
+    },  
+    {
+      "name": "C#"
+    },
+    {
+      "name": "SQL"
+    }],
+    "projects": [{
+      "name": "CV Javier Irineo",
+      "description": "En esta página se habla sobre mí y todo el conocimiento que he adquirido",
+      "tecnologis": [
+        "JavaScript",
+        "TypeScript",
+        "Vue 3"
+      ],
+      "url": "https://github.com/Irineo-1/cv-irineo-villa"
+    },
+    {
+      "name": "Registro practicas CBTIS 19",
+      "description": "En esta página los alumnos pueden seguir su proceso para realizar sus prácticas profesionales",
+      "tecnologis": [
+        "Vue 3 CDN",
+        "PHP"
+      ],
+      "url": "https://github.com/Irineo-1/practicas_profecionales"
+    },
+    {
+      "name": "Gestor de tienda",
+      "description": "Este es un sistema realizado para practicar mis Habilidades con React.js",
+      "tecnologis": [
+        "JavaScript",
+        "TypeScript",
+        "React.js",
+        "Redux",
+        "MUI",
+        "Tailwind"
+      ],
+      "url": "https://github.com/Irineo-1/Gestor-tienda-abarrotes"
+    },
+    {
+      "name": "API Gestor de tienda",
+      "description": "Este es un servicio creado para complementar el proyecto de 'Gestor de tienda'",
+      "tecnologis": [
+        "Python",
+        "FastApi"
+      ],
+      "url": "https://github.com/Irineo-1/API-gestor-tienda-abarrotes"
+    },
+    {
+      "name": "Procesador de video",
+      "description": "Este servicio obtiene un blob y lo convierte a cualquier formato de video",
+      "tecnologis": [
+        "Node.js",
+        "TypeScript"
+      ],
+      "url": "https://github.com/Irineo-1/service-prosses-video"
+    },
+    {
+      "name": "API páginas",
+      "description": "En esta API se gestiona la información de diferentes empresas y se regresa la información según su dominio",
+      "tecnologis": [
+        "Python"
+      ],
+      "url": "https://github.com/Irineo-1/api-company-pagues"
+    }]
+  }
