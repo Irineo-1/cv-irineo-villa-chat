@@ -18,6 +18,13 @@
       }
     },
     "work": [{
+      "name": "Bodesa",
+      "position": "INGENIERO DE SOFTWARE",
+      "url": "",
+      "startDate": "02/2024",
+      "endDate": "10/2024",
+      "summary": "Migrando servicios REST creados el .NET core. Migrando aplicaciones de Xamarin a Kotlin "
+    },{
       "name": "Ap interfaces",
       "position": "PROGRAMADOR PHP",
       "url": "",
