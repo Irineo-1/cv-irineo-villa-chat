@@ -88,6 +88,15 @@
       "name": "SQL"
     }],
     "projects": [{
+      "name": "CV Javier Irineo Versión Chat",
+      "description": "En esta página se habla sobre mí con un diseño mas trabajado intentanto imitar el diseño de un smartphone",
+      "tecnologis": [
+        "JavaScript",
+        "Astro",
+        "Vue 3"
+      ],
+      "url": "https://github.com/Irineo-1/cv-irineo-villa-chat"
+    },{
       "name": "CV Javier Irineo",
       "description": "En esta página se habla sobre mí y todo el conocimiento que he adquirido",
       "tecnologis": [
