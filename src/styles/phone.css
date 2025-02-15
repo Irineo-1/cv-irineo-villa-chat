@@ -11,6 +11,7 @@
     --btn-shadow-hover: 0px 3px 15px -1px black;
     --gray-dark: 34, 41, 57;
     --phone-color: rgb(17, 16, 16);
+    --border-color: #8080806b;
 }
 
 *:focus-visible {
@@ -99,6 +100,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 15px;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .topbar > div {
@@ -132,12 +134,13 @@ body {
     position: absolute;
     width: 100%;
     height: 0px;
-    background: #ededed;
+    background: var(--white);
     bottom: 60px;
     transition: 1s;
     overflow: hidden;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    box-shadow: 0px -15px 20px -18px #0000007d;
 }
 
 .container-options {
@@ -147,7 +150,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 5px 0px;
+    padding: 10px 0px;
 }
 
 .controles {
@@ -172,8 +175,8 @@ body {
 }
 
 .btn-send {
-    background: #c5c5c54f;
-    border: none;
+    border: 1px solid var(--border-color);
+    background: white;
     padding: 0;
     width: 40px;
     height: 40px;
@@ -184,10 +187,8 @@ body {
     margin-left: 5px;
     cursor: pointer;
     transition: 1s;
-    box-shadow: var(--btn-shadow);
 
     &:hover {
-        background-color: #c5c5c5;
         box-shadow: var(--btn-shadow-hover);
     }
 }
@@ -195,13 +196,13 @@ body {
 .btn-arrow {
     background: var(--white);
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     cursor: pointer;
     padding: 0;
     margin: 0;
     display: flex;
     position: absolute;
-    right: 20px;
+    right: 22px;
     bottom: 60px;
     z-index: 3;
     transition: 1s;
@@ -263,12 +264,11 @@ body {
 }
 
 .btn-options-messages {
-    background: var(--white);
-    border: none;
+    border: 1px solid var(--border-color);
+    background: white;
     padding: 10px;
     margin: 0px 5px;
     border-radius: 20px;
-    box-shadow: var(--btn-shadow);
     cursor: pointer;
     transition: 1s;
 

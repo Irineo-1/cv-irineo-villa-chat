@@ -12,7 +12,7 @@ let mensaje = ref("")
 const chatContainer = ref(null)
 const divOptions = ref(null)
 let iconArrow = ref("/arrow_up.svg")
-const mensajesPredeterminados = ['información de contacto', 'experiencia', 'educación', 'certificados', 'habilidades', 'proyectos']
+const mensajesPredeterminados = ['acerca de mi', 'información de contacto', 'experiencia', 'educación', 'certificados', 'habilidades', 'proyectos']
 
 const scrollToBottom = () => {
   nextTick(() => {
@@ -27,7 +27,7 @@ const sendMessage = () => {
 
     if(mensaje.value.trim() === '') return
 
-    if(mensajesPredeterminados.includes(mensaje.value.toLowerCase())) {
+    if(mensajesPredeterminados.includes(mensaje.value.toLowerCase().trim())) {
 
         mensajes.push({
             "is": "user",
@@ -35,6 +35,12 @@ const sendMessage = () => {
         })
 
         switch(mensaje.value.toLowerCase()) {
+            case "acerca de mi":
+                mensajes.push({
+                    "is": "page",
+                    "mensaje": `Soy un ${summary.toLowerCase()}`
+                })
+            break
             case "información de contacto":
                 mensajes.push({
                     "is": "page",
@@ -125,28 +131,24 @@ const sendMessage = () => {
 const toggleOptions = () => {
     if (!divOptions.value) return
     
-    if (divOptions.value.style.height === '150px') {
+    if (divOptions.value.style.height === '160px') {
         divOptions.value.style.height = '0px'
         iconArrow.value = "/arrow_up.svg"
     } else {
-        divOptions.value.style.height = '150px'
+        divOptions.value.style.height = '160px'
         iconArrow.value = "/arrow_donw.svg"
     }
 }
 
 const sendMessageClicked = (message) => {
     mensaje.value = message
+    toggleOptions()
     sendMessage()
 }
 
 mensajes.push({
     "is": "page",
     "mensaje": `Hola! me llamo ${name}`
-})
-
-mensajes.push({
-    "is": "page",
-    "mensaje": `Soy un ${summary.toLowerCase()}`
 })
 
 mensajes.push({
@@ -168,7 +170,7 @@ mensajes.push({
     "is": "page",
     "mensaje": `
         Puedes enviar los siguentes mensajes: 
-        información de contacto, experiencia, educación, certificados, habilidades, proyectos
+        <strong>acerca de mi, información de contacto, experiencia, educación, certificados, habilidades, proyectos</strong>
     `
 })
 

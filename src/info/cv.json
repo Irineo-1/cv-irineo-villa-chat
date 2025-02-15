@@ -137,5 +137,15 @@
         "Python"
       ],
       "url": "https://github.com/Irineo-1/api-company-pagues"
+    },
+    {
+      "name": "Chat",
+      "description": "Este es un chat a modo de practica hecho con vue y node.js usando sokcet.io",
+      "tecnologis": [
+        "Vue.js",
+        "Node.js",
+        "Socket.io"
+      ],
+      "url": "https://github.com/Irineo-1/chat-general"
     }]
   }
