@@ -5,7 +5,7 @@
       "image": "",
       "email": "javieririneo369@gmail.com",
       "github": "https://github.com/Irineo-1",
-      "linkedin": "https://www.linkedin.com/in/irineo-villa-castillo-64359b1a9/",
+      "linkedin": "https://www.linkedin.com/in/javier-irineo-villa-castillo-64359b1a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "phone": "",
       "url": "",
       "summary": "Desarrollador web con 3 años de experiencia trabajando tanto en Front-end como Back-end. Con una gran experiencia utilizando el stack de vue. Una gran facilidad de aprendizaje y para resolver problemas en poco tiempo.",
@@ -18,6 +18,13 @@
       }
     },
     "work": [{
+      "name": "Bodesa",
+      "position": "INGENIERO DE SOFTWARE",
+      "url": "",
+      "startDate": "02/2024",
+      "endDate": "10/2024",
+      "summary": "Migrando servicios REST creados el .NET core. Migrando aplicaciones de Xamarin a Kotlin "
+    },{
       "name": "Ap interfaces",
       "position": "PROGRAMADOR PHP",
       "url": "",
@@ -81,6 +88,15 @@
       "name": "SQL"
     }],
     "projects": [{
+      "name": "CV Javier Irineo Versión Chat",
+      "description": "En esta página se habla sobre mí con un diseño mas trabajado intentanto imitar el diseño de un smartphone",
+      "tecnologis": [
+        "JavaScript",
+        "Astro",
+        "Vue 3"
+      ],
+      "url": "https://github.com/Irineo-1/cv-irineo-villa-chat"
+    },{
       "name": "CV Javier Irineo",
       "description": "En esta página se habla sobre mí y todo el conocimiento que he adquirido",
       "tecnologis": [
