@@ -2,6 +2,7 @@
 	--gray: 96, 115, 159;
     --gray-light: 229, 233, 240;
     --white: #fff;
+    --back: #000;
     --gray-background: #8080802e;
     --gray-background-user: #808080;
     --gray-gradient: rgba(var(--gray-light), 50%), #fff;
@@ -215,29 +216,40 @@ body {
 .container-message-page {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .container-message-user {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
 .message-page {
     position: relative;
     padding: 10px;
-    background: var(--gray-background-user);
+    background: var(--gray-background);
     margin: 5px 10px;
     display: flex;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.message-user {
+    position: relative;
+    padding: 10px;
+    background: var(--gray-background-user);
+    margin: 5px 10px;
+    display: flex;
     color: var(--white);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .location {
-    color: var(--white);
+    color: var(--back);
 }
 
 .btn-contacto {
@@ -277,17 +289,6 @@ body {
     }
 }
 
-.message-user {
-    position: relative;
-    padding: 10px;
-    background: var(--gray-background);
-    margin: 5px 10px;
-    display: flex;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
 .message-text {
     font-size: 15px;
 }
@@ -295,7 +296,7 @@ body {
 .tecnologias-text {
     background: var(--white);
     color: black;
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 20px;
     display: inline-block;
 }
